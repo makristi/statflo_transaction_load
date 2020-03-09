@@ -14,3 +14,4 @@ Things which got missed or should be improved:
 - Data model was done with 2 assumptions:
 1. transaction id was unique for each item
 2. price is total price for transaction/order, as there were different prices for cappucino, but no sizes of drink or any information about item variation provided
+- Query could be more optimized with temp tables, instead of having a loop within
